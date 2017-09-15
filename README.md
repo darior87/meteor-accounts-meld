@@ -69,6 +69,7 @@ and possibly more than these...
 | Google    | -- Yes --  | Google provides a "verified email" field.
 | GitHub    |    No      | GitHub does not provide a way to know if the user email is verified.
 | LinkedIn  | -- Yes --  | LinkedIn provides the user email + LinkedIn enrolment process ensures this email is verified
+| Stripe    | -- Yes --  | Stripe provides the user email + Stripe enrolment proces ensure this email is verifieed. Tested with dancaws:accounts-stripe package
 
 To add support for LinkedIn, use the package [pauli:accounts-linkedin](https://github.com/PauliBuccini/meteor-accounts-linkedin/) and add the `r_emailaddress` permission to your LinkedIn app (section *OAuth User Agreement* of the app settings).
 
